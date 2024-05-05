@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Assessment Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h2>Mental Health Assessment Results</h2>
+    <div class="result-container">
+        <p><strong>Weighted Sentiment Score:</strong> {{ weighted_sentiment_score }}</p>
+        <p><strong>Mental State:</strong> {{ mental_state }}</p>
+    </div>
+</body>
+</html>
